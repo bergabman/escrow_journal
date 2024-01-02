@@ -37,7 +37,7 @@ Key features:
  and the TokenProgram are automatically checked under the hood. The other big advantage of anchor is the clearly defined 
  account structure, and while in itself the abstraction to see account structs is achieved with some smart macro 
  manipulation, it makes it much easier for the developer to visualize the structure he has to work with. 
- Under the hood is all just bytes and offsets, but removing the burden of understanding byte  structures from 
+ Under the hood is all just bytes and offsets, but removing the burden of understanding byte structures from 
  the developer does make focusing on business logic much easier. People can focus on what they want to achieve 
  instead of how to build the structures for what they want to achieve. Anchor also helped to motivate developers
  using ancor as best practice for smartcontract development.
@@ -52,7 +52,7 @@ Key features:
  readable for everyone. And while understanding traits and struct implementations might need some rust knowledge,
  which in general applies to all of the contracts, reading and following the flow of code is way easier if the 
  functions have their own file, associated with their own context. In ironaddicteddog's contract, a single file 
- was used to write verything, which makes it harder to differenciate if I'm looking at the deposit, or the 
- withdraw impl function. Making a clear difference with storing the functions in named files not just makes the 
+ was used to write everything, which makes it harder to differenciate between looking at the deposit, or the 
+ withdraw impl functions. Making a clear difference with storing the functions in named files not just makes the 
  code readable for other developers, but also makes auditors work easier. A concious representation of the logic
- is key for safety, and this contract is the strongest in that.
+ is key for safety, and this contract is clearly the strongest in that.
