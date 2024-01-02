@@ -2,8 +2,8 @@
 
 The evolution of programs on solana
 
-To be able to see the evolution of tools and programming practices on solana, 3 techincally comparable escrow contracts 
-written in different phases of the network and tooling development been chosen.
+To be able to see the evolution of tools and programming practices on solana, 3 technically comparable escrow contracts 
+written in different phases of the network and tooling development has been chosen.
 
 ## 1: Escrow contract by PaulX. https://paulx.dev/blog/2021/01/14/programming-on-solana-an-introduction/
 
