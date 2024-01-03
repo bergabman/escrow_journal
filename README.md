@@ -8,6 +8,7 @@ written in different phases of the network and tooling development has been chos
 ## 1: Escrow contract by PaulX. https://paulx.dev/blog/2021/01/14/programming-on-solana-an-introduction/
 
 Key features:
+
  - Written in pure rust
  - Utilizes only available generic functionality to complete the task
  
@@ -27,7 +28,8 @@ Key features:
  
 ## 2: Escrow by ironaddicteddog. https://hackmd.io/@ironaddicteddog/solana-anchor-escrow
 
-Key features: 
+Key features:
+
  - Written using the Anchor framework
  - Utilizes anchor utilities to build the contract and make it relatively readable and safe
   
@@ -45,6 +47,7 @@ Key features: 
 ## 3: Escrow by Dean Little. https://github.com/deanmlittle/anchor-escrow-2023
 
 Key features:
+
  - Written in anchor
  - Uses clearly defined file and function structure for better readability
  
