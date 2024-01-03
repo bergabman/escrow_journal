@@ -9,9 +9,9 @@ written in different phases of the network and tooling development has been chos
 
 Key features:
 
- - Written in pure rust
- - Utilizes only available generic functionality to complete the task
- 
+- Written in pure rust
+- Utilizes only available generic functionality to complete the task
+
  When PaulX wrote the first escrow contract to showcase the possibilities of solana smart contracts, very little 
  tooling/examples or documentation were available. The solana foundation created it's own ebpf version called rbpf 
  which is an expanded set of instructions compared to ebpf. The idea was to make the rbpf framework for solana 
@@ -30,9 +30,9 @@ Key features:
 
 Key features:
 
- - Written using the Anchor framework
- - Utilizes anchor utilities to build the contract and make it relatively readable and safe
-  
+- Written using the Anchor framework
+- Utilizes anchor utilities to build the contract and make it relatively readable and safe
+
  With the release of the anchor framework, a lot of difficulty was removed from smartcontract development with rust. 
  The best features of anchor is abstracting away the accounts iterator, and doing the right account validity checks 
  for the developer. This was a huge improvement in security, as accounts like the SystemProgram, 
@@ -48,9 +48,9 @@ Key features:
 
 Key features:
 
- - Written in anchor
- - Uses clearly defined file and function structure for better readability
- 
+- Written in anchor
+- Uses clearly defined file and function structure for better readability
+
  Besides using the anchor framework and enjoying it's advantages, Dean has put in extra effort to make the code
  readable for everyone. And while understanding traits and struct implementations might need some rust knowledge,
  which in general applies to all of the contracts, reading and following the flow of code is way easier if the 
